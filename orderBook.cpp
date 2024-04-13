@@ -76,9 +76,8 @@ void  executeOrder(OrderBook &orderBook, Order &newOrder, std::vector<BalanceCha
 }
 
 int main() {
-   OrderBook                     orderBook;
-   
-   char choice;
+   OrderBook   orderBook;
+   char        choice;
    do {
       Order newOrder;
       std::vector<BalanceChanges> balanceChanges;
